@@ -147,3 +147,27 @@
 .multi-tabs .css-1aquho2-MuiTabs-indicator {
     background-color: var(--green);
 }
+
+
+
+/* About.js css */
+
+.about {
+    font-family: var(--font-family);
+    padding: 0 0 32px 0;
+    color: rgb(232, 232, 232);
+}
+
+.about h5 {
+    color: var(--green);
+    margin-top: 32px;
+}
+
+.about span {
+    font-style: italic;
+}
+
+.about ol {
+    padding-left: 20px;
+    padding-top: 12px;
+}

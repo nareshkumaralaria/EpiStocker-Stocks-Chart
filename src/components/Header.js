@@ -35,7 +35,9 @@ const Header = () => {
                     <Link to='/'>
                         <Typography variant="body1" gutterBottom>Home</Typography>
                     </Link>
-                    <Typography variant="body1" gutterBottom>About</Typography>
+                    <Link to='/about'>
+                        <Typography variant="body1" gutterBottom>About</Typography>
+                    </Link>
                 </div>
                 <FormGroup sx={{ display: { xs: 'none', md: 'block' } }} onClick={handleClick}>
                     <FormControlLabel style={{ marginRight: "0px" }} control={<Switch defaultChecked disabled />} label="Dark mode" />
